@@ -17,13 +17,13 @@ public class Torso : MonoBehaviour
         if(Input.GetKey(KeyCode.W))
         {
             Debug.Log("flingtorsoforwards");
-            rb.AddForce(transform.forward * thrust);
+            rb.AddRelativeForce(Vector3.forward * thrust);
         }
 
         if(Input.GetKey(KeyCode.S))
         {
             Debug.Log("flingtorsobackwards");
-            rb.AddForce(-transform.forward * thrust);
+            rb.AddRelativeForce(-Vector3.forward * thrust);
         }
     }
 }

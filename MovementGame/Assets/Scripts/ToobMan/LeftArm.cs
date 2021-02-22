@@ -17,7 +17,7 @@ public class LeftArm : MonoBehaviour
         if(Input.GetKey(KeyCode.A))
         {
             Debug.Log("flingleftarm");
-            rb.AddForce(transform.up * thrust);
+            rb.AddRelativeForce(Vector3.up * thrust);
         }
     }
 }

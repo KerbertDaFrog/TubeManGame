@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TubeMan : MonoBehaviour
 {
+    public float health;
     public bool inWindZone = false;
     public GameObject windZone;
 

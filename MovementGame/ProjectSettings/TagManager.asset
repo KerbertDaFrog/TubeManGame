@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - WindArea
+  - Pickup
   layers:
   - Default
   - TransparentFX
